@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Map>
+	<UIMaps>
+		<UIMap Id="UserNameInput">
+			<By>Id</By>
+			<ToFind>userName</ToFind>
+		</UIMap>
+		<UIMap Id="PassWordInput">
+			<By>Id</By>
+			<ToFind>password</ToFind>
+		</UIMap>
+		<UIMap Id="SelectLanguageLinkBar">
+			<By>XPath</By>
+			<ToFind>//div[@id='formContainer']//div[@class='header']</ToFind>
+		</UIMap>
+		<UIMap Id="EnglisghLanguageLink">
+			<By>XPath</By>
+			<ToFind>//div[@id='formContainer']//a[contains(., 'English')]</ToFind>
+		</UIMap>
+	</UIMaps>
+</Map>
